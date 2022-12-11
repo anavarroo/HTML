@@ -1,0 +1,158 @@
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+} 
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header{
+    background-color: bisque;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    align-items: center;
+}
+
+
+hgroup {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 5px;
+    color: white;
+}
+
+h3{
+    margin: 0;
+}
+
+
+
+/* MENU */
+
+.menu{
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+}
+
+nav {
+    width: 100vw;
+    height: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* CENTRO */
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+main{
+    min-height: 550px;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.cartas{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    height: 100%;
+    width: 60%;
+    gap: 5%;
+    margin-bottom: 30px;
+    margin-right: 80px;
+}
+
+aside{
+    min-height: 550px;  
+    width: 20%;
+    background-color: green;  
+    display: flex;
+     
+}
+
+.circulos {
+    background-color: white;
+    width: 240px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.der{
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: aqua;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+    align-items: center;
+
+}
+
+.tfoot{
+    background-color: bisque;
+    padding: 5px;
+    width: 40px;
+}
+
+
+
