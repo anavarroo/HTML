@@ -1,0 +1,47 @@
+#contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#contenedorPrincipal > h2 {
+  font-size: 3rem;
+  text-transform:uppercase;
+  text-decoration:underline;
+  color: rgb(255, 255, 255);
+}
+
+#empresas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 35%;
+  border: 3px solid rgb(160, 255, 160);
+  border-radius: 20px;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.empresa {
+  background-color: none;
+  width: 150px;
+  height: auto;
+}
+
+.subcontenedor {
+  border: 3px solid rgb(160, 255, 160);
+  border-radius: 20px;
+  padding: 2%;
+  background-color: rgba(58, 255, 189, 0.551);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+}

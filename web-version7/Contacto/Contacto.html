@@ -1,0 +1,102 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        
+        <meta name="description" content="Proyecto Entorno - Marcas" />
+        <meta name="keywords" content="Entornos, web, ejercicio" />
+        <meta name="language" content="ES" />
+        <meta name="author" content="greenair@greenair.com" />
+        <meta name="robots" content="Inicio" />
+        <meta name="revised" content="Friday, November 25th, 2022, 16:22pm" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome1" />
+        <meta name="refresh" content="300; URL=index.html" />
+        <title>Inicio</title>
+
+        <link href="../css/style.css" rel="stylesheet" type="text/css">        
+        <link href="contacto.css" rel="stylesheet" type="text/css">        
+    </head>
+    <body>
+        <header id="img">
+            <img id="logo" src="../img/logo.jpg">  
+            <h1 id="nombreEmpresa">GREEN AIR</h1>
+        </header>
+        <nav class="cabecera">
+            <ul>
+                <li><a href="../Inicio/Inicio.html">Inicio</a></li>
+                <li><a href="../QuienSomos/QuienSomos.html">Quiénes somos</a></li>
+                <li><a href="../ObraSocial/ObraSocial.html">Obra social</a></li>
+                <li><a href="../EmpresasRelacionadas/EmpresasRelacionadas.html">Empresas relacionadas</a></li>
+                <li><a href="../Donaciones/Donaciones.html">Donaciones</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+          
+          <div id="contenedorPrincipal">
+            <h2>Formulario de contacto</h2>
+            <h3>Ponte en contacto con nosotros y te responderemos a la mayor brevedad posible</h3>
+            <div class="formulario">
+              <form action="formulario.php" method="post">
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span>
+                  </label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre"/>
+                </p>
+        
+                <p>
+                  <label for="apellidos" class="apellidos">Apellidos<span class="obligatorio">*</span>
+                  </label>
+                  <input type="text" name="introducir_apellidos" id="apellidos" required="obligatorio" placeholder="Escribe tus apellidos"/>
+                </p>
+        
+                <p>
+                  <label for="email" class="email">Email<span class="obligatorio">*</span>
+                  </label>
+                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email"/>
+                </p>
+        
+                <p>
+                  <label for="telefone" class="telefono">Teléfono<span class="obligatorio">*</span>
+                  </label>
+                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono"/>
+                </p>
+        
+                <p>
+                  <label for="mensaje" class="mensaje">Mensaje </label>
+                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+        
+                <input class="boton" type="submit" name="enviar_formulario" id="enviar" value="Enviar"/>
+        
+                <p><span class="obligatorio"> * </span>Los campos son obligatorios.</p>
+              </form>
+            </div>
+            <h2>Síguenos en nuestras redes sociales</h2>
+            <div id="subcontenedor">
+              <div class="redesSociales">
+                <a href="https://www.facebook.com" title="Facebook">
+                  <img class="redes" src="../img/iconofacebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com" title="Twitter">
+                  <img class="redes" src="../img/iconotwitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com" title="Linkedin">
+                  <img class="redes" src="../img/iconolinkedin.png" alt="Linkedin">
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer"> 
+            <div>
+               Copyright © 2020. Todos los derechos reservados.
+            </div>              
+        </footer>
+    </body>
+
+    
+</html>
+
+

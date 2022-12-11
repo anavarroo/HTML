@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head> 
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejercicio pracito de HTML ">
+        <meta name="keyworda" content="Ejercicio, practico, HTML" > 
+        <meta name="language" content="ES" > 
+        <meta name="author" content="alberto.navarro@vedruna.es">
+        <meta name="robots" content = "index, follow">
+        <meta name="revised" content="Tuesday, Jun 10th, 2022, 18::00pm">
+        <meta name="viewport" content="width=devide-width, initial acale=1.0">
+        <meta http-equiv="X-UA-Compatible" content=" IE-edge, chrome1" >
+        <meta http-equiv="refresh" content="300; URL=formulario.html"/>
+
+    </head>
+ 
+    <body>
+        
+        <body>
+
+            <fieldset>
+
+                <h2>Haz tu reserva </h2>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" value=""><br>
+                <label for="correo">Correo electronico :</label>
+                <input type="email" id="correo" name="correo" value=""><br>
+                <label for="correo">Telefono :</label>
+                <input type="number" id="telefono" name="telefono" value=""><br>
+                <label for="correo">Fecha de reserva :</label>
+                <input type="date" id="fecha" name="fecha" value=""><br>
+                
+
+
+                <label for="hora">Franja Horaria:</label>
+                <select id="hora" name="hora">
+
+                  <option value="uno-dos">13:00--14:00</option>
+                  <option value="dos-tres">14:00--15:00</option>
+                  <option value="tres-cuatro">15:00-16:00</option>
+                  <option value="cuatro-cinco">16:00-17:00</option><br>
+
+                </select>
+                <br>
+                <label for="comensales">Comensales (min1, max 10) :</label>
+                <input type="number" id="comensales" name="comensales" value=""><br>
+
+                <label for="color">Color del mantel :</label> 
+                <input type="color" id="color" name="color" value=""> <br>
+
+                <label for="demandas">Demandas especiales :</label> <br>
+                <textarea placeholder="alergias, tronas, ..."></textarea>
+
+                <br><input type="submit">
+
+                 
+
+            </fieldset>
+        
+          
+        </body>
+
+</html>
+
+    </body>
+
+</html>

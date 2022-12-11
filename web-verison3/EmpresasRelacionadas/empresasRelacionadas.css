@@ -1,0 +1,23 @@
+#contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#empresas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 35%;
+}
+
+.empresa {
+  background-color: none;
+  width: 150px;
+  height: auto;
+}

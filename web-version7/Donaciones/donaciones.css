@@ -1,0 +1,73 @@
+#contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.contenedorSecundario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid rgb(160, 255, 160);
+  border-radius: 20px;
+  background-color: rgba(58, 255, 189, 0.551);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#contenedorPrincipal > h2 {
+  font-size: 3rem;
+  text-transform:uppercase;
+  text-decoration:underline;
+  color: rgb(255, 255, 255);
+}
+
+.texto {
+  margin: 1rem;
+  border: 3px solid rgb(160, 255, 160);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 70%;
+  transition: all 0.5s;
+}
+
+.donaciones {
+  margin: 1rem;
+  border: 3px solid rgb(160, 255, 160);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+
+.texto:hover, .donaciones:hover {
+  border: 3px solid rgb(0, 93, 40);
+  background-color: rgba(0, 115, 67, 0.528);
+  border-radius: 50px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paypal-img {
+  width: 40%;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+}

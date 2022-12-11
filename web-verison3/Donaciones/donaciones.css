@@ -1,0 +1,35 @@
+#contenedorPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.donaciones {
+  margin: 1rem;
+  border: 3px solid green;
+  border-radius: 20%;
+  background-color: rgba(58, 255, 189, 0.551);
+  padding: 2rem;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paypal-img {
+  width: 40%;
+  height: auto;
+}
